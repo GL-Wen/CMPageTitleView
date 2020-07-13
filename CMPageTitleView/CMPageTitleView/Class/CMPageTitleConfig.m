@@ -14,9 +14,6 @@
 #import "CMPageTitleViewMacro.h"
 @interface CMPageTitleConfig ()
 
-/**视图宽度*/
-@property (nonatomic,strong) NSNumber *cm_pageTitleViewWidth;
-
 @end
 
 @implementation CMPageTitleConfig

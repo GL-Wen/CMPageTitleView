@@ -227,6 +227,10 @@ typedef NS_ENUM(NSUInteger,CMPageTitleScaleGradientContentMode) {
  */
 @property (nonatomic,weak,readonly) UIViewController *cm_parentController;
 
+/**
+  标题栏宽度
+*/
+@property (nonatomic, strong) NSNumber *cm_pageTitleViewWidth;
 
 #pragma mark --- 缩放效果
 
